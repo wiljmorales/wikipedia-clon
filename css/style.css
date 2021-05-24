@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  font-family: Linux Libertine, Georgia, Times, serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+}
+
+header .header-title {
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+header .header-title span{
+  font-size: 4.1rem;
+}
+
+
