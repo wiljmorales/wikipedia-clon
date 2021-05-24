@@ -5,6 +5,12 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato,
+    Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+}
 header {
   font-family: Linux Libertine, Georgia, Times, serif;
   width: 100%;
@@ -21,8 +27,95 @@ header .header-title {
   text-transform: uppercase;
 }
 
-header .header-title span{
+header .header-title span {
   font-size: 4.1rem;
 }
 
+header .header-sub-title {
+  margin-bottom: 2rem;
+}
 
+main .language-menu {
+  background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+main .language-menu--container {
+  width: 54.6rem;
+  height: 32.5rem;
+  position: relative;
+  margin: 0 auto;
+}
+
+main .language-menu .language-menu--option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15.6rem;
+  height: 4.5rem;
+  position: absolute;
+}
+
+main .language-menu .language-menu--option:hover {
+  background-color: #eaecf0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+main .language-menu .language-menu--option a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #3366cc;
+  margin-bottom: 0.5rem;
+}
+
+main .language-menu .language-menu--option span {
+  font-size: small;
+  color: #5f6467;
+}
+
+.lang1 {
+  top: 0;
+  left: 10%;
+}
+
+.lang2 {
+  top: 0;
+  left: 60%;
+}
+.lang3 {
+  top: 20%;
+  left: 0;
+}
+.lang4 {
+  top: 20%;
+  left: 70%;
+}
+.lang5 {
+  top: 40%;
+  left: -2%;
+}
+.lang6 {
+  top: 40%;
+  left: 74%;
+}
+.lang7 {
+  top: 60%;
+  left: 0;
+}
+.lang8 {
+  top: 60%;
+  left: 72%;
+}
+.lang9 {
+  top: 80%;
+  left: 10%;
+}
+.lang10 {
+  top: 80%;
+  left: 60%;
+}
