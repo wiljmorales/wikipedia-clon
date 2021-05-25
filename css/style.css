@@ -239,3 +239,61 @@ hr {
   border-bottom: 1px solid #c8ccd1;
   height: 0;
 }
+
+.footer-info {
+  display: flex;
+  padding: 4.16rem 1.28rem 1.28rem
+}
+
+.footer-sidebar {
+  width: 35%;
+  background-color: lightcoral;
+}
+
+.other-projects {
+  width: 65%;
+  display: inline-block;
+}
+
+.other-project a {
+  text-decoration: none;
+  display: flex;
+  padding: 1.3rem;
+}
+
+.other-project a:hover {
+  background-color: #eaecf0;
+}
+
+.other-project a:focus {
+  border: 1px solid #36c;
+}
+
+.other-project {
+  position: relative;
+  float: left;
+  width: 33%;
+}
+
+.commons-logo {
+  display: inline-block;
+  background-position: 0 0px;
+  height: 47px;
+  width: 71px;
+  margin-right: 1rem;
+}
+
+.other-project--content {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-project--title {
+  color: #3366cc;
+  font-size: 1.4rem; 
+}
+
+.other-project--tagline {
+  color: black;
+  font-size: 1.3rem;
+}
