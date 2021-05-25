@@ -11,6 +11,13 @@ body {
     Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
 }
+
+.background-img {
+  background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
 header {
   font-family: Linux Libertine, Georgia, Times, serif;
   width: 100%;
@@ -181,4 +188,54 @@ main .language-menu .language-menu--option span {
 
 .search .search-container .search-button img {
   width: 2rem;
+}
+
+.language-dropdown {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-detail {
+  width: 20rem;
+  height: 1px;
+  background-color: #c8ccd1;
+  margin: 0 1.5rem;
+}
+
+.language-dropdown--button {
+  padding: 0.6rem 1.2rem;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #3366cc;
+  font-family: inherit;
+}
+
+.language-icon {
+  display: inline-block;
+  background-position: 0 -616px;
+  height: 22px;
+  width: 22px;
+}
+
+.blue-dropdown {
+  display: inline-block;
+  background-position: 0 -527px;
+  height: 14px;
+  width: 14px;
+}
+
+.language-dropdown--button__text {
+  padding: 0 6.5px;
+}
+
+hr {
+  margin: .26rem 1.3rem;
+  border: 0;
+  border-bottom: 1px solid #c8ccd1;
+  height: 0;
 }
