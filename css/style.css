@@ -13,7 +13,7 @@ body {
 }
 
 .background-img {
-  background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg');
+  background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg");
   background-repeat: no-repeat;
   vertical-align: middle;
 }
@@ -127,7 +127,6 @@ main .language-menu .language-menu--option span {
   left: 60%;
 }
 
-
 .search .search-container {
   display: flex;
   align-items: center;
@@ -155,7 +154,7 @@ main .language-menu .language-menu--option span {
 
 .search .search-container .search-input-container input:focus {
   border: 2px solid #3366cc;
-}  
+}
 
 .search .search-container .search-input-container p {
   position: absolute;
@@ -181,9 +180,9 @@ main .language-menu .language-menu--option span {
   background-color: #3366cc;
 }
 
-.search .search-container .search-button:hover{
+.search .search-container .search-button:hover {
   background: #447ff5;
-  border:#447ff5
+  border: #447ff5;
 }
 
 .search .search-container .search-button img {
@@ -234,7 +233,7 @@ main .language-menu .language-menu--option span {
 }
 
 hr {
-  margin: .26rem 1.3rem;
+  margin: 0.26rem 1.3rem;
   border: 0;
   border-bottom: 1px solid #c8ccd1;
   height: 0;
@@ -242,7 +241,7 @@ hr {
 
 .footer-info {
   display: flex;
-  padding: 4.16rem 1.28rem 1.28rem
+  padding: 4.16rem 1.28rem 1.28rem;
 }
 
 .footer-sidebar {
@@ -275,25 +274,32 @@ hr {
   width: 33%;
 }
 
+.other-project-logo {
+  display: flex;
+  align-items: center;
+}
+
 .commons-logo {
   display: inline-block;
   background-position: 0 0px;
   height: 47px;
-  width: 71px;
+  width: 43px;
   margin-right: 1rem;
 }
 
 .other-project--content {
   display: flex;
   flex-direction: column;
+  max-width: 18rem;
 }
 
 .other-project--title {
   color: #3366cc;
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
 }
 
 .other-project--tagline {
   color: black;
   font-size: 1.3rem;
+  display: block;
 }
