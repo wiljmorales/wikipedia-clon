@@ -10,6 +10,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato,
     Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
+  color: #54595d;
+  line-height: 1.5;
 }
 
 .background-img {
@@ -246,7 +248,87 @@ hr {
 
 .footer-sidebar {
   width: 35%;
-  background-color: lightcoral;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-sidebar--info {
+  display: flex;
+  max-width: 35rem;
+  margin-bottom: 3.2rem;
+}
+
+.wikimedia-logo {
+  display: inline-block;
+  background-position: 0 -212px;
+  height: 45px;
+  width: 45px;
+  margin-right: 1rem;
+}
+
+.footer-sidebar--info--content {
+  padding-right: 2rem;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+}
+
+.footer-sidebar--info--content a {
+  text-decoration: none;
+  color: #36c;
+}
+
+.footer-sidebar--info--content a:hover {
+  text-decoration: underline;
+}
+
+.footer-sidebar--movile {
+  display: flex;
+  max-width: 35rem;
+  margin-bottom: 3.2rem;
+  background-color: #f8f9fa;
+}
+
+.wikiapp-logo {
+  display: inline-block;
+  background-position: 0 -717px;
+  height: 49px;
+  width: 45px;
+  margin-right: 1rem;
+}
+
+.footer-sidebar--movile--content {
+  padding-right: 2rem;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+}
+
+.footer-sidebar--movile--content strong {
+  font-weight: 700;
+}
+
+.footer-sidebar--movile--content p {
+  margin: 1.3rem 0;
+}
+
+.movile-logos-container {
+  display: flex;
+}
+
+.android-logo {
+  display: inline-block;
+  background-position: 0 -540px;
+  height: 39px;
+  width: 123px;
+  margin-right: 0.5rem;
+}
+
+.apple-logo {
+  display: inline-block;
+  background-position: 0 -578px;
+  height: 39px;
+  width: 123px;
+  margin-right: 1rem;
 }
 
 .other-projects {
@@ -272,6 +354,7 @@ hr {
   position: relative;
   float: left;
   width: 33%;
+  min-height: 8.5rem;
 }
 
 .other-project-logo {
@@ -283,6 +366,22 @@ hr {
   display: inline-block;
   background-position: 0 0px;
   height: 47px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikiviajes-logo {
+  display: inline-block;
+  background-position: 0 -445px;
+  height: 37px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikcionario-logo {
+  display: inline-block;
+  background-position: 0 -482px;
+  height: 37px;
   width: 43px;
   margin-right: 1rem;
 }
@@ -299,7 +398,43 @@ hr {
 }
 
 .other-project--tagline {
-  color: black;
+  color: #54595d;
   font-size: 1.3rem;
   display: block;
+}
+
+.site-lisence-container {
+  display: flex;
+  margin: 1.4rem 0;
+  justify-content: center;
+}
+
+.site-lisence-container p::after {
+  content: "\2022";
+  display: inline-block;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: inherit;
+  margin-left: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.site-lisence-container a {
+  text-decoration: none;
+  color: #36c;
+}
+
+.site-lisence-container a:hover {
+  text-decoration: underline;
+}
+
+.user-terms::after {
+  content: "\2022";
+  display: inline-block;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: inherit;
+  margin-left: 0.8rem;
+  margin-right: 0.5rem;
+  color: #54595d;
 }
