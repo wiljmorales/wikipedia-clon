@@ -216,6 +216,10 @@ main .language-menu .language-menu--option span {
   font-family: inherit;
 }
 
+.language-dropdown--button:hover {
+  background-color: #fff;
+}
+
 .language-icon {
   display: inline-block;
   background-position: 0 -616px;
@@ -382,6 +386,78 @@ hr {
   display: inline-block;
   background-position: 0 -482px;
   height: 37px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikilibros-logo {
+  display: inline-block;
+  background-position: 0 -126px;
+  height: 39px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikinoticias-logo {
+  background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png');
+  display: inline-block;
+  height: 30px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikidata-logo {
+  display: inline-block;
+  background-position: 0 -164px;
+  height: 39px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikiversidad-logo {
+  display: inline-block;
+  background-position: 0 -408px;
+  height: 39px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikiquote-logo {
+  display: inline-block;
+  background-position: 0 -286px;
+  height: 42px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.mediawiki-logo {
+  display: inline-block;
+  background-position: 0 -48px;
+  height: 39px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikisource-logo {
+  display: inline-block;
+  background-position: 0 -328px;
+  height: 39px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.wikispecies-logo {
+  display: inline-block;
+  background-position: 0 -368px;
+  height: 40px;
+  width: 43px;
+  margin-right: 1rem;
+}
+
+.metawiki-logo {
+  display: inline-block;
+  background-position: 0 -88px;
+  height: 38px;
   width: 43px;
   margin-right: 1rem;
 }
